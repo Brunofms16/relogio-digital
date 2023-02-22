@@ -7,6 +7,27 @@
 text-align: center;
 padding-top: 10px;
 }
+span > p {font-size: 15px;}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  text-shadow: black 5px 3px 9px;
+  font-weight: bolder;
+}
+
+footer {
+  padding-top: 100px;
+}
+
+a > img {
+  border-radius: 50%;
+width: 50px;
+height: 50px;
+}
+
 
 body {
     height: 100vh;
@@ -17,14 +38,19 @@ body {
     justify-content: center;
 }
 
+/* div {
+height: 100px;
+width: 100px;
+} */
+
 .relogio {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height:200px ;
-    width: 550px;
+    height:30vh ;
+    width: 95vw;
     background: transparent;
-    box-shadow: 0px  8px  10px black;
+    box-shadow: -1px 10px 17px 0px black;
 }
 
 .relogio div {
